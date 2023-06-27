@@ -1,0 +1,9 @@
+const Islogged=(state=false,action)=>{
+    switch(action.type){
+        case'SIGN_IN':
+            return state=true
+        case 'NOt_in':
+            return state
+    }
+}
+export default Islogged;
